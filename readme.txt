@@ -6,6 +6,8 @@ ng serve --port 4242 (Default port is 4200)
 
 store-front and admin-portal
 
-npm install --save @angular/material
+npm install --save @angular/material @angular/cdk
 
 node-modules/@angular/material/pre-built themes -- @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+npm install --save hammerjs
