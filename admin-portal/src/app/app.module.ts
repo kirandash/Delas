@@ -4,11 +4,13 @@ import { MatButtonModule, MatIconModule, MatInputModule, MatSelectModule, MatSli
 import 'hammerjs'; // Gesture Support
 
 import { AppComponent } from './app.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
